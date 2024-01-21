@@ -4,3 +4,7 @@ title: Maarten's Blog
 author: Maarten van Diemen
 
 timezone: Europe/Amsterdam
+future: false # GitHub Pages will publish future posts if this isn't set to false
+
+description: >
+  My first blog.
