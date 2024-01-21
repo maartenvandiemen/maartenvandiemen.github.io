@@ -9,3 +9,10 @@ description: >
   My first blog.
 
 remote_theme: jekyll/minima
+
+# Minima specific settings, which are only available from Minima 3.0 onward.
+social-links:
+  StackOverflow:   https://stackoverflow.com/users/711293/mrtentje
+  GitHub:          https://github.com/maartenvandiemen
+  Microsoft Learn: https://learn.microsoft.com/en-us/users/maartenvandiemen/
+  Twitter:         https://twitter.com/maartenvandiemen
