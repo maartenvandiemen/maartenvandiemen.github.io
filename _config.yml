@@ -8,7 +8,15 @@ future: false # GitHub Pages will publish future posts if this isn't set to fals
 description: >
   My first blog.
 
+show_excerpts: false
+
 remote_theme: jekyll/minima
+
+# Minima variables
+twitter_username:  maartenvandiemen
+github_username:   maartenvandiemen
+linkedin_username: chadbaldwin
+rss: rss
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
 social-links:
