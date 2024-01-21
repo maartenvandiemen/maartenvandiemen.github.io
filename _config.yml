@@ -9,6 +9,9 @@ show_excerpts: false
 
 remote_theme: jekyll/minima
 
+plugins:
+  - jekyll-feed
+
 header_pages:
   - archive-tags.html
 
