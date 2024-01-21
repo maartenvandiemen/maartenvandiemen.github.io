@@ -12,15 +12,12 @@ show_excerpts: false
 
 remote_theme: jekyll/minima
 
-# Minima variables
-twitter_username:  maartenvandiemen
-github_username:   maartenvandiemen
-linkedin_username: chadbaldwin
-rss: rss
 
-# Minima specific settings, which are only available from Minima 3.0 onward.
-social-links:
-  StackOverflow:   https://stackoverflow.com/users/711293/mrtentje
-  GitHub:          https://github.com/maartenvandiemen
-  Microsoft Learn: https://learn.microsoft.com/en-us/users/maartenvandiemen/
-  Twitter:         https://twitter.com/maartenvandiemen
+
+minima:
+  # Generate social links in footer.
+  social_links:
+    - { platform: github,         user_url: "https://github.com/maartenvandiemen" }
+    - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/711293/mrtentje" }
+    - { platform: twitter,        user_url: "https://twitter.com/maartenvandiemen" }
+    - { platform: x,              user_url: "https://x.com/maartenvandiemen" }
