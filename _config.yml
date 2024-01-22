@@ -23,4 +23,4 @@ minima:
     - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/711293/mrtentje" }
     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/maarten-van-diemen" }
     - { platform: twitter,        user_url: "https://twitter.com/maartendiemen" }
-    - { platform: rss,            user_url: "https://maartenvandiemen.github.io/feed.xml" }
+    - { platform: rss,            user_url: "feed.xml" }
