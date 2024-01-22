@@ -1,4 +1,4 @@
-<div class)="profile">
+<div class="profile">
   ![me](assets/img/me.jpg)
 </div>
 On this site I will write articles about topics I encounter during my work as Software Engineer.
