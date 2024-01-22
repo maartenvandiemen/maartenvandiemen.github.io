@@ -9,8 +9,6 @@ show_excerpts: false
 
 remote_theme: jekyll/minima
 
-rss: rss
-
 plugins:
   - jekyll-feed
 
