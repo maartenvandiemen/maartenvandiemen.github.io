@@ -1,6 +1,4 @@
 title: Maarten's blog
-author:
-  name: Maarten van Diemen
 
 timezone: Europe/Amsterdam
 future: false # GitHub Pages will publish future posts if this isn't set to false
@@ -24,4 +22,3 @@ minima:
     - { platform: github,         user_url: "https://github.com/maartenvandiemen" }
     - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/711293/mrtentje" }
     - { platform: twitter,        user_url: "https://twitter.com/maartenvandiemen" }
-
