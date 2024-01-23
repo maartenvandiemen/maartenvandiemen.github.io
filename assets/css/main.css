@@ -1,6 +1,12 @@
-.profile img
+.profile-img
 {
-    float:left
-    margin-right: 10px
-    border-radius: 50px  
+    float:left;
+    margin-right: 10px;
+    border-radius: 50px;  
+}
+
+.footer-center
+{
+    width: 50%;
+    margin: auto;
 }
