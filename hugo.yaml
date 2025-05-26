@@ -1,0 +1,102 @@
+baseURL: https://maartenvandiemen.github.io
+languageCode: en-us
+title: Maarten's Blog
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 5
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+
+params:
+
+  defaultTheme: auto
+  ShowShareButtons: false
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  homeInfoParams:
+    Title: Maarten van Diemen
+    Content: |
+      <img src="/images/profile.jpg" alt="Profile" class="profile-circle" width="300" height="300" /><br>
+
+      I'm a software engineer based in the Netherlands. My passion lies in building scalable, efficient backend systems, with a strong focus on the Microsoft stack.
+      I enjoy streamlining development workflows and bringing robust backend architecture to life. </br></br>
+      Feel free to connect with me on social media or explore my work on GitHub!
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/maartenvandiemen"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/maarten-van-diemen/"
+    - name: x
+      url: "https://x.com/maartendiemen"
+
+  
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
