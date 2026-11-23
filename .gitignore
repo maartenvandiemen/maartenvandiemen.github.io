@@ -28,3 +28,6 @@ _testmain.go
 resources/_gen/
 
 /archetypes
+# Structurizr (only the .dsl source is committed)
+diagrams/**/.structurizr/
+diagrams/**/*.json

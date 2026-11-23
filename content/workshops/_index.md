@@ -1,6 +1,7 @@
 ---
 title: "Workshops"
 description: "Hands-on workshops you can follow at your own pace or join live at conferences"
+ShowBreadCrumbs: false
 # No RSS feed for /workshops/ itself
 outputs: ["HTML"]
 # Keep workshop pages out of the site-wide feed (PaperMod's rss.xml honours this)

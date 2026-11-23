@@ -4,7 +4,7 @@ title: "How to turbocharge your devops pipeline"
 date: "2025-07-04"
 description: "dotnetFlix about Azure Devops- and GitHub pipelines"
 tags: ["YAML", "Azure Devops", "GitHub Actions"]
-ShowToc: false
+ShowToc: true
 ShowBreadCrumbs: false
 ---
 
