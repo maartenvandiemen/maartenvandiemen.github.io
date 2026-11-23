@@ -116,11 +116,13 @@ workspace "TodoItems" "The TodoItems demo API as used in the Azure networking wo
         systemContext ss "SystemOverview" {
             title "TodoItems: system context"
             include *
+            autoLayout tb
         }
 
         container ss "ContainerOverview" {
             title "TodoItems: containers"
             include *
+            autoLayout tb
         }
 
         deployment ss "Assignment 2" "NetworkOverview" {
